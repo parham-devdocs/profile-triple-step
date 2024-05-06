@@ -25,7 +25,7 @@ const address_postcode = ref([
 ])
 const Info=userInfo()
 watch(address_postcode.value, () => {
-
+console.log(userInfo().address);
     Info.address = address_postcode.value[0].value
 
     Info.post_code = Number(address_postcode.value[1].value)

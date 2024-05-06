@@ -20,7 +20,7 @@ import { userInfo } from '~/pages/profile/composables/stores/user';
 
 const user=userInfo()
 const married = ref(
-    { title: 'marital_status', lable: 'وضعیت ناهل',value:'' },
+    { title: 'marital_status', lable: 'وضعیت ناهل', value: '' }
 )
 
 watch(married.value, () => {

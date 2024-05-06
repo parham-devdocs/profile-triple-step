@@ -1,15 +1,14 @@
 import { defineStore } from "pinia";
 
 export const userInfo = defineStore('userInfo',{
-    state: () => ({
-  "mobile": "",
-  "military_status": "",
+  state: () => ({
+      "username":"",
   "marital_status": "",
   "first_name": "",
   "last_name": "",
   "gender": "",
   "father_name": "",
-  "shenasname_id": "",
+  "shenasneme_id": "",
   "place_issue": "",
   "date_birth": "",
   "place_birth": "",
@@ -20,6 +19,7 @@ export const userInfo = defineStore('userInfo',{
   "children_count": 1,
   "dependants_count": 1,
   "partner_job": "string",
-  "partner_job_address": "string"
+    "partner_job_address": "string",
+
 })
 })
